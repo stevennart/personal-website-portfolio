@@ -2,7 +2,7 @@
 
 A one page personal website portfolio to showcase ongoing and completed technical projects built with the three core web technologies. 
 
-[Deployed App](www.steventran.ca)
+[Deployed App](http://www.steventran.ca)
 
 # What I Learned
 
