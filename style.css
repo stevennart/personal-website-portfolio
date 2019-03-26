@@ -1,0 +1,192 @@
+/* font-family: 'Arvo', serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Hind Siliguri', sans-serif; */
+
+body {
+    overflow-x: hidden;
+    /* arial is default font style w/o including font-family */
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+
+.hind-font {
+    font-family: 'Hind Siliguri', sans-serif;
+    /* font-weight: 700; */
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+.container-fluid h3,
+.green {
+    color: darkolivegreen;
+}
+
+
+/* .tech {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+} */
+
+/* Makes sure that the navbar aligns with the section of the content when clicking on the links */
+.offset:before {
+    display: block;
+    content: "";
+    height: 4.6em;
+    margin-top: -4.6em;
+}
+
+
+span {
+    color: red;
+}
+
+#about i {
+    font-size: 4.5rem;
+}
+
+/* --navigation-- */
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .25rem;
+    background: rgba(0, 0, 0, 0.4) !important;
+
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.pad {
+    padding-top: 15px;
+}
+
+.form-group {
+    margin-bottom: 0;
+    /* padding-top: 0; */
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #56cbf9;
+}
+
+/* Landing Page */
+
+.home-inner {
+    background: url(img/2100-min.jpg);
+}
+
+.fixed {
+    background: url(img/fixed2.jpg);
+    z-index: -1;
+}
+
+.dark {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.enlarge {
+    font-size: 21px;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 36%;
+    text-transform: uppercase;
+    z-index: 1;
+    color: white;
+    letter-spacing: .5rem;
+    font-family: "Open Sans";
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 1.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+}
+
+.card-img-top {
+
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.col-sm-12 .col-sm-6 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.col-sm-12 textarea {
+    /* margin-top: 10px; */
+}
+
+footer .col-sm-12 {
+
+    padding-top: 4px;
+    padding-left: 4px;
+}
+
+#contact .social {
+    /* padding-left: 0;
+    padding-right: 0; */
+}
+
+#contact .color {
+    background: #333;
+}
+
+.blkcolor {
+    background: #8499B1;
+}
+
+.social a {
+    font-size: 3rem;
+    margin: 3rem;
+    color: black;
+}
+
+.social a:hover,
+.fa-linkedin:hover {
+
+    color: #58A4B0;
+}
+
+
+.fa-linkedin {
+    color: #337ab7;
+}
+
+#projects .container-fluid {
+    background: #333;
+}
+
+.grey {
+    background: #D8DBE2;
+}
